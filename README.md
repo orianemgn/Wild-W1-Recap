@@ -16,15 +16,18 @@ The terminal
 <https://www.youtube.com/watch?v=AO0jzD1hpXc&ab_channel=danscourses>
 
 
+
 |**Some basic commands** |
 | :-: |
-|commands |name if name |description|
+
+|commands|name if name |description|   |   |
+|--------|-------------|-----------|---|---|
 |pwd|prompt - print working directory|display current directory |
 |cd or cd~|change directorie command|retourn to the personal directory of the current user|
 |cd~||short cut to the user folder|
 |cd ..||go up one directory (parent directory)|
 |cd ~/Music||go under your Music folder (whatever folder you were in before) |
-|<p>cd a  + press tab twice</p><p>cd x + press tab twice</p><p>cd letter + press tab twice</p>||show all folders beginning with a // same with x or every letter|
+|cd a  + press tab twice <br />cd x + press tab twice <br />cd letter + press tab twice||show all folders beginning with a // same with x or every letter|
 |ls |list command|tell you the files in the directory|
 |ls -l||tell you the files in the directory with more details|
 |ls . |list command “the current directory” = .|tell you the files in the directory|
@@ -57,13 +60,15 @@ It’s very handy, especially if you’re in a completely different directory an
 
 |**Some basic Files and Directories commands** |
 | :-: |
+
 |commands |name if name |description|
+|-------- |------------ |-----------|
 |mkdir name|makedirectory|make a new directory |
 |rmdir name|remove directory |remove directory|
 |touch name||create file|
 |code name||open the file |
 |code .||open the folder you are inside |
-|<p>cp</p><p></p>|copy|use two parameters, namely source(s) and destination (or target) There may be several sources, but there is only one destination |
+|cp|copy|use|copy|use two parameters, namely source(s) and destination (or target) There may be several sources, but there is only one destination |
 |cp ap\* banana /fruits||copy all files beginning with ap + babana in the fruits folder|
 |<p>cp -R fruits copy-of-fruits</p><p></p><p></p><p>cp -R     -R is mandadoty to copy a directory, even an emty one </p>|Recursive copy|copy of folder (because of the -R argument, if the source forled contains files, they are copied. If it contains directories, it copies them too, then “descends” into each of there directories, and so on. |
 |cp -R fruits copy-of-fruits /tmp/||This also works with multiple source directories, in this case you have too give an existing directory as destination argment|
@@ -79,7 +84,9 @@ It’s very handy, especially if you’re in a completely different directory an
 
 |**Temporary files** |
 | :-: |
+
 |commands |name if name |description|
+|-------- |------------ |-----------|
 |/tmp|places for temporary files|this folder contains temporary files which are sometimes used when installinf or running programs on your computer|
 |<p>echo “Hello, world” > helloWorld.txt</p><p></p>|||
 |echo||used to display text in the console|
@@ -101,7 +108,9 @@ It’s very handy, especially if you’re in a completely different directory an
 
 |**Git and GitHub**|
 | :-: |
+
 |commands |name if name |description|
+|-------- |------------ |-----------|
 |/tmp|places for temporary files|this folder contains temporary files which are sometimes used when installinf or running programs on your computer|
 |<p>echo “Hello, world” > helloWorld.txt</p><p></p>|||
 |echo||used to display text in the console|
